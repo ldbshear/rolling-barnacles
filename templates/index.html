@@ -7,25 +7,28 @@
     <title>Simple Blog</title>
 </head>
 <body>
-    <div id="simpleRiskCard">
-        <h1>Simple Risk Blog</h1>
-    {% for post in posts %}
-        <div>
-            <h2>{{ post.title }}</h2>
-            <p>By {{ post.author }} on {{ post.date_posted }}</p>
-            <p>{{ post.content }}</p>
-            <h3>{{content}}</h3>
-        </div>
-    {% endfor %}
+    <div id="riskCardContainer">
+         <div id="simpleRiskCard">
+            <h1>Simple Risk Blog</h1>
+        {% for post in posts %}
+            <div>
+                <h2>{{ post.title }}</h2>
+                <p>By {{ post.author }} on {{ post.date_posted }}</p>
+                <p>{{ post.content }}</p>
+                <h3>{{content}}</h3>
+            </div>
+        {% endfor %}
 
-        <p>You now know all about risks.</p>
+            <p>You now know all about risks.</p>
 
-        <div id="degreeBtnHolder">
-            <p id="certSentence">Click below for your certificate</p>
-            <button onclick="addHappyFace()">Certified</button>
-            <div id="emoji-placeholder"></div>
+                <div id="degreeBtnHolder">
+                    <p id="certSentence">Click below for your certificate</p>
+                    <button onclick="addHappyFace()">Certified</button>
+                    <div id="emoji-placeholder"></div>
+                </div>
         </div>
     </div>
+   
     
 
 </body>
