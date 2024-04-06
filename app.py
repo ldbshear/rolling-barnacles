@@ -22,7 +22,7 @@ posts = [
 @app.route("/home")
 def home():
     print ("Here from app.py")
-    return render_template('index.html', posts=posts, content="This is a test.")
+    return render_template('index.html', posts=posts)
 
 if __name__ == '__main__':
     app.run(debug=True)
