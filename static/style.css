@@ -12,14 +12,14 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    width: 70vw;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     padding: 2px 16px;
 }
 
 #degreeBtnHolder{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
