@@ -16,5 +16,21 @@
             <h3>{{content}}</h3>
         </div>
     {% endfor %}
+
+    <p>You now know all about risks.</p>
+
+    <div id="degreeBtnHolder">
+        <p id="certSentence">Click below for your certificate</p>
+        <button onclick="addHappyFace()">Certified</button>
+        <div id="emoji-placeholder"></div>
+    </div>
+
 </body>
+
+<script>
+    function addHappyFace() {
+        document.getElementById('emoji-placeholder').innerText = '😊';
+    }
+</script>
+
 </html>

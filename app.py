@@ -7,13 +7,13 @@ posts = [
     {
         'author': 'Author One',
         'title': 'Blog Post 1',
-        'content': 'First post content',
+        'content': 'There are good risks.',
         'date_posted': 'April 1, 2024'
     },
     {
         'author': 'Author Two',
         'title': 'Blog Post 2',
-        'content': 'Second post content',
+        'content': 'There are bad risks.',
         'date_posted': 'April 2, 2024'
     }
 ]
