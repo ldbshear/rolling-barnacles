@@ -15,12 +15,11 @@ h1 {
 #simpleRiskCard{
     background: linear-gradient(to top, #dfe9f3 0%, white 100%);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
     width: 450px;
     height: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.3);
     padding: 60px 30px;
 }
 
