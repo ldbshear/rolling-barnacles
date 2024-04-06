@@ -21,15 +21,13 @@ h1 {
     width: 450px;
     height: 100%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
-    padding: 2px 16px;
+    padding: 60px 30px;
 }
 
 #degreeBtnHolder{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-    max-width: 20vw;
 }
 
 button{
